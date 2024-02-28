@@ -124,7 +124,7 @@ namespace _4915M_Lab
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Name = "Lab1";
-            this.Text = "Form1";
+            this.Text = "Lab1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

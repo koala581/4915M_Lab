@@ -16,7 +16,7 @@ namespace _4915M_Lab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lab1());
+            Application.Run(new Menu());
         }
     }
 }
