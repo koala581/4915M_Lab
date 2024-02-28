@@ -22,6 +22,7 @@ namespace _4915M_Lab
             String name;
             name = txtName.Text;
             lstStudents.Items.Add(name);
+            lblMessage.Text = $"The following item is added:{name}";
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)
@@ -53,6 +54,11 @@ namespace _4915M_Lab
         {
             lblMessage.Text = $"The following item is deleted: {lstStudents.SelectedItem}";
             lstStudents.Items.Remove(lstStudents.SelectedItem);
+        }
+
+        private void lstStudents_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = $"The following item is seleted: {lstStudents.SelectedItem}";
         }
     }
 }

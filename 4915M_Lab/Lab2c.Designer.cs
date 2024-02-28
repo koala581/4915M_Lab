@@ -65,6 +65,7 @@ namespace _4915M_Lab
             this.lstStudents.Name = "lstStudents";
             this.lstStudents.Size = new System.Drawing.Size(240, 173);
             this.lstStudents.TabIndex = 2;
+            this.lstStudents.Click += new System.EventHandler(this.lstStudents_Click);
             this.lstStudents.DoubleClick += new System.EventHandler(this.lstStudents_DoubleClick);
             // 
             // txtName
