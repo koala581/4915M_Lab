@@ -177,7 +177,7 @@ namespace _4915M_Lab
             // lblMessage
             // 
             this.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblMessage.Font = new System.Drawing.Font("SketchFlow Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.Location = new System.Drawing.Point(101, 387);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(585, 33);
@@ -198,6 +198,7 @@ namespace _4915M_Lab
             this.Controls.Add(this.labelName);
             this.Name = "Lab2b";
             this.Text = "Weather Report";
+            this.Load += new System.EventHandler(this.Lab2b_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCloudy)).EndInit();
