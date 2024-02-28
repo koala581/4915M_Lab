@@ -28,5 +28,11 @@ namespace _4915M_Lab
             Lab2a lab2a = new Lab2a();
             lab2a.ShowDialog();
         }
+
+        private void Lab2b_Click(object sender, EventArgs e)
+        {
+            Lab2b lab2b = new Lab2b();
+            lab2b.ShowDialog();
+        }
     }
 }
