@@ -77,7 +77,7 @@ namespace _4915M_Lab
             this.radioRainy.Size = new System.Drawing.Size(69, 27);
             this.radioRainy.TabIndex = 3;
             this.radioRainy.TabStop = true;
-            this.radioRainy.Text = "Rainy";
+            this.radioRainy.Text = "&Rainy";
             this.radioRainy.UseVisualStyleBackColor = true;
             this.radioRainy.CheckedChanged += new System.EventHandler(this.radioRainy_CheckedChanged);
             // 
@@ -90,7 +90,7 @@ namespace _4915M_Lab
             this.radioSnowy.Size = new System.Drawing.Size(75, 27);
             this.radioSnowy.TabIndex = 4;
             this.radioSnowy.TabStop = true;
-            this.radioSnowy.Text = "Snowy";
+            this.radioSnowy.Text = "&Snowy";
             this.radioSnowy.UseVisualStyleBackColor = true;
             this.radioSnowy.CheckedChanged += new System.EventHandler(this.radioSnowy_CheckedChanged);
             // 
@@ -103,7 +103,7 @@ namespace _4915M_Lab
             this.radioSunny.Size = new System.Drawing.Size(72, 27);
             this.radioSunny.TabIndex = 5;
             this.radioSunny.TabStop = true;
-            this.radioSunny.Text = "Sunny";
+            this.radioSunny.Text = "&Sunny";
             this.radioSunny.UseVisualStyleBackColor = true;
             this.radioSunny.CheckedChanged += new System.EventHandler(this.radioSunny_CheckedChanged);
             // 
@@ -170,7 +170,7 @@ namespace _4915M_Lab
             this.radioCloudy.Size = new System.Drawing.Size(77, 27);
             this.radioCloudy.TabIndex = 6;
             this.radioCloudy.TabStop = true;
-            this.radioCloudy.Text = "Cloudy";
+            this.radioCloudy.Text = "&Cloudy";
             this.radioCloudy.UseVisualStyleBackColor = true;
             this.radioCloudy.CheckedChanged += new System.EventHandler(this.radioCloudy_CheckedChanged);
             // 

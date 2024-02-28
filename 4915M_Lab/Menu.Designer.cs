@@ -32,11 +32,12 @@ namespace _4915M_Lab
             this.Lab1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.Lab2b = new System.Windows.Forms.Button();
+            this.Lab2c = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lab1
             // 
-            this.Lab1.Location = new System.Drawing.Point(43, 57);
+            this.Lab1.Location = new System.Drawing.Point(44, 65);
             this.Lab1.Name = "Lab1";
             this.Lab1.Size = new System.Drawing.Size(83, 37);
             this.Lab1.TabIndex = 0;
@@ -46,7 +47,7 @@ namespace _4915M_Lab
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(43, 114);
+            this.button1.Location = new System.Drawing.Point(44, 108);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 37);
             this.button1.TabIndex = 1;
@@ -56,7 +57,7 @@ namespace _4915M_Lab
             // 
             // Lab2b
             // 
-            this.Lab2b.Location = new System.Drawing.Point(43, 168);
+            this.Lab2b.Location = new System.Drawing.Point(44, 151);
             this.Lab2b.Name = "Lab2b";
             this.Lab2b.Size = new System.Drawing.Size(83, 37);
             this.Lab2b.TabIndex = 2;
@@ -64,11 +65,22 @@ namespace _4915M_Lab
             this.Lab2b.UseVisualStyleBackColor = true;
             this.Lab2b.Click += new System.EventHandler(this.Lab2b_Click);
             // 
+            // Lab2c
+            // 
+            this.Lab2c.Location = new System.Drawing.Point(44, 194);
+            this.Lab2c.Name = "Lab2c";
+            this.Lab2c.Size = new System.Drawing.Size(83, 37);
+            this.Lab2c.TabIndex = 3;
+            this.Lab2c.Text = "Lab2c";
+            this.Lab2c.UseVisualStyleBackColor = true;
+            this.Lab2c.Click += new System.EventHandler(this.Lab2c_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Lab2c);
             this.Controls.Add(this.Lab2b);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Lab1);
@@ -83,5 +95,6 @@ namespace _4915M_Lab
         private System.Windows.Forms.Button Lab1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Lab2b;
+        private System.Windows.Forms.Button Lab2c;
     }
 }
