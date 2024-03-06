@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab3b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3b.Designer.cs">
+      <DependentUpon>Lab3b.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab3.resx">
       <DependentUpon>Lab3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3b.resx">
+      <DependentUpon>Lab3b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

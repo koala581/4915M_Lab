@@ -34,6 +34,7 @@ namespace _4915M_Lab
             this.Lab2b = new System.Windows.Forms.Button();
             this.Lab2c = new System.Windows.Forms.Button();
             this.Lab3 = new System.Windows.Forms.Button();
+            this.Lab3b = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lab1
@@ -86,11 +87,22 @@ namespace _4915M_Lab
             this.Lab3.UseVisualStyleBackColor = true;
             this.Lab3.Click += new System.EventHandler(this.Lab3_Click);
             // 
+            // Lab3b
+            // 
+            this.Lab3b.Location = new System.Drawing.Point(44, 280);
+            this.Lab3b.Name = "Lab3b";
+            this.Lab3b.Size = new System.Drawing.Size(83, 37);
+            this.Lab3b.TabIndex = 5;
+            this.Lab3b.Text = "Lab3b";
+            this.Lab3b.UseVisualStyleBackColor = true;
+            this.Lab3b.Click += new System.EventHandler(this.Lab3b_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Lab3b);
             this.Controls.Add(this.Lab3);
             this.Controls.Add(this.Lab2c);
             this.Controls.Add(this.Lab2b);
@@ -109,5 +121,6 @@ namespace _4915M_Lab
         private System.Windows.Forms.Button Lab2b;
         private System.Windows.Forms.Button Lab2c;
         private System.Windows.Forms.Button Lab3;
+        private System.Windows.Forms.Button Lab3b;
     }
 }

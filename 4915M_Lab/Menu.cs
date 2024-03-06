@@ -46,5 +46,11 @@ namespace _4915M_Lab
             Lab3 lab3 = new Lab3();
             lab3.ShowDialog();
         }
+
+        private void Lab3b_Click(object sender, EventArgs e)
+        {
+            Lab3b lab3b = new Lab3b();
+            lab3b.ShowDialog();
+        }
     }
 }
