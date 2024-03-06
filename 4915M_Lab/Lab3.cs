@@ -19,6 +19,12 @@ namespace _4915M_Lab
 
         private void btnCast_Click(object sender, EventArgs e)
         {
+            
+            MessageBox.Show($"You voted for \n{cboMovie.Text}");
+        }
+
+        private void cboMovie_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

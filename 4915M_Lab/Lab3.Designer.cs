@@ -67,6 +67,7 @@ namespace _4915M_Lab
             this.cboMovie.Name = "cboMovie";
             this.cboMovie.Size = new System.Drawing.Size(192, 21);
             this.cboMovie.TabIndex = 2;
+            this.cboMovie.SelectedIndexChanged += new System.EventHandler(this.cboMovie_SelectedIndexChanged);
             // 
             // Lab3
             // 
